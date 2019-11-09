@@ -1,0 +1,98 @@
+<app-header></app-header>
+<script>
+    $(document).ready(function() {
+    $('#myCarousel').carousel({
+	interval: 10000
+	})
+    
+    $('#myCarousel').on('slid.bs.carousel', function() {
+    	//alert("slid");
+	});
+    
+    
+});
+
+
+</script>
+
+<div class="bmain"style="height: 100%; width: 100%;">
+        <div class="col-md-12" style="height: 40%;width:100%">
+             <h1 style="text-align: center; color: burlywood">FEATURED MANGA</h1>
+    
+            <div class="well">
+                <div id="myCarousel" class="carousel slide">
+                    
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/dbz.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/deathnote.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/Fairy tail.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/blackclover.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <!--/row-->
+                        </div>
+                        <!--/item-->
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/bleach.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/onepiece.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/naruto.jpg" alt="Image" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-6"><a href="#x" class="thumbnail"><img src="../../assets/tokyoghoul.png" alt="Image" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <!--/row-->
+                        </div>
+                        <!--/item-->
+                    </div>
+                    <!--/carousel-inner--> 
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                </div>
+                <!--/myCarousel-->
+            </div>
+            <!--/well-->
+        </div>
+    <div style="height: 60%;width:100%;background-color: black">
+        <h1 style="text-align:center;color:#B45C28">MOST POPULAR</h1>
+    <div class="container">
+    <hr>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <img src="../../assets/black2.jpg" alt="" class="img-responsive">
+                </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <h2 class="text-uppercase" style="color: #CA2D59">BLACK CLOVER</h2>
+                <p>The series focuses on Asta, a young orphan who was raised from birth after being abandoned at a church orphanage on the outskirts of the Clover Kingdom along with his fellow orphan, Yuno. While everyone is born with the ability to utilize Mana in the form of Magical Power (魔力 Maryoku),
+                  Asta is the only exception as he compensates through physical training. Conversely, Yuno was born as a prodigy with immense magical power and the talent to control wind magic. Motivated by a desire to become the next Wizard King, an authority figure second to the king of Clover Kingdom, the two youths developed a friendly rivalry, 
+                  acquired grimoires with Yuno obtaining a four-leaf grimoire held by the kingdom's first Wizard King. Asta, despite his lack of magic, obtained the mysterious five-leaf grimoire, which contains the rare and mysterious Anti-Magic.
+                  But after he and Yuno each joined a Magic Knight squad as the first step to fulfill their ambitions, Asta finds himself facing a terrorist organization that is gathering magic stones to conduct a ritual to destroy the Clover Kingdom for its actions against the original inhabitants at the time of the first Wizard King.</p>
+            </div>
+        </div>
+    <hr>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <h2 class="text-uppercase"style="color:#CA2D59;">FAIRY TAIL</h2>
+                <p>The world of Earth-land is home to numerous guilds where wizards[3] apply their magic for paid job requests. Natsu Dragneel, a dragon slayer wizard from the Fairy Tail guild, explores the Kingdom of Fiore in search of his missing adoptive father, the dragon Igneel. 
+                    During his journey, he befriends a young celestial wizard named Lucy Heartfilia and invites her to join Fairy Tail. Lucy forms a team with Natsu and his cat-like Exceed partner, Happy, which is joined by other guild members: Gray Fullbuster, an ice wizard; Erza Scarlet, a magical knight;
+                     and Wendy Marvell and Carla, another dragon slayer and Exceed duo. The team embark on numerous missions together, which include subduing criminals, illegal dark guilds, and ancient Etherious demons created by the immortal dark wizard Zeref.</p>
+            </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                <img src="../../assets/fairy.png" alt="" class="img-responsive">
+                </div>
+            </div>
+        <hr>
+    </div>
+    </div>
+</div>
+    
+<app-footer></app-footer>

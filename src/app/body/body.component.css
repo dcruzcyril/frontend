@@ -1,0 +1,14 @@
+.carousel-control {
+    padding-top:10%;
+    width:5%;
+  }
+  .col-md-12 {
+    background-color: black;
+  }
+  .well{
+    background-color:rgba(185, 67, 136, 0.664);
+  }
+  .bmain{
+    padding-top: 0;
+    height: 488px;
+  }

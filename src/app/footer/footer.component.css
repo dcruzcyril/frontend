@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background:black;
+}
+
+.content {
+  padding: 05px;
+  font: 300 40px Lato, sans-serif;
+  text-align: center;
+  color:white;
+  background:rgb(102, 101, 101);
+}
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  line-height: 70px;
+  font-family: Entypo;
+  font-size: 35px;
+  text-align: center;
+  color:#fed189;
+  border-radius: 50%;
+  background: #555;
+  overflow: hidden;
+  transition: color .3s;
+}
+
+.social:hover {
+  color: #e9347f;
+  cursor: pointer;
+}
+

@@ -1,0 +1,25 @@
+
+<app-header></app-header>
+
+
+<div class="container">
+<div class="row">
+    <div class="col-3" *ngFor="let obj of arr">
+        <div class="card" style="width: 18rem;"  >
+                <img class="card-img-top"
+                 src="{{obj.imageLink}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{obj.name}}</h5>
+                    <p class="card-text">{{obj.rating}}</p>
+                    <a href="#" class="btn btn-primary">
+                        {{obj.email}}</a>
+ 
+                        <button type="submit"[routerLink]="['/newview',obj._id]">Update</button>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<app-footer> </app-footer>

@@ -1,0 +1,40 @@
+<!-- <table style="width:100%" *ngIf='employees && employees.length'>
+    <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+</thead>
+    <tbody>
+        <tr *ngFor='let employee of employees'>
+      <td>{{employee.fname}}</td>
+      <td>{{employee.lname}}</td> 
+      <td>{{employee.Age}}</td>
+    </tr>
+    </tbody>
+  </table>  -->
+  <div class="fullcontent" style="background-image: url(../../assets/login.jpg)">
+      <div class="headings">
+          <h1>ACE MANGA</h1>
+          <h2>There are many reasons you should read Manga online, and if you are a fan of this unique storytelling style then learning about them is a must. One of the biggest reasons why you should read Manga online is the money it can save you. While there's nothing like actually holding a book in your hands, there's also no denying that the cost of those books can add up quickly. So why not join the digital age and read Manga online? Another big reason to read Manga online is the huge amount of material that is available. When you go to a comic store or other book store their shelves are limited by the space that they have. When you go to an online site to read Manga those limitations don't exist. So if you want the best selection and you also want to save money then reading Manga online should be an obvious choice for you.</h2></div>
+      <div class="formbox">
+          <h3>Sign Up</h3>
+          <form id="form" action="" method="post">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="asd"[(ngModel)]="email" placeholder="Email@abc.com" name="email"/>
+              <label for="text" >Username</label>
+              <input type="text" placeholder="Username"class="asd"[(ngModel)]="username" name="username"/>
+              <label for="">Password</label>
+              <input type="password" class="asd"[(ngModel)]="password" placeholder="Password" name="password"/>
+                
+                <button type="submit" id="btn" (click)="addData()" name="submit" class="mainbox">Register
+              </button>
+             
+             <label>Already a member?
+                 <a routerLink="/Login" routerLinkActive="active" class="mainbox">Sign In</a>
+            </label>
+        </form>	
+      </div>
+  </div>
+  
